@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Перевод англоязычных идиом в художественном тексте</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f8f9fa;
+            --text-color: #333;
+            --card-bg: #ffffff;
+            --border-color: #e2e8f0;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            -webkit-font-smoothing: antialiased;
+        }
+
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 4rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        header p {
+            margin-top: 1rem;
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        main {
+            max-width: 1200px;
+            margin: -2rem auto 2rem;
+            padding: 0 1rem;
+            position: relative;
+        }
+
+        section {
+            background: var(--card-bg);
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+            padding: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 0.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+        }
+
+        h3 {
+            color: var(--primary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+            text-align: justify;
+        }
+
+        /* Адаптивность таблиц */
+        .table-responsive {
+            overflow-x: auto;
+            margin-top: 0.5rem;
+            margin-bottom: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 0 0 1px var(--border-color);
+            -webkit-overflow-scrolling: touch; /* Плавный скролл на iOS */
+        }
+
+        .scroll-hint {
+            display: none;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #888;
+            margin-bottom: 8px;
+            font-style: italic;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95rem;
+            min-width: 600px; /* Минимальная ширина, чтобы таблица не сжималась в кашу */
+        }
+
+        th, td {
+            border: 1px solid var(--border-color);
+            padding: 16px;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--primary-color);
+            font-weight: 600;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #fafafa;
+        }
+
+        tr:hover {
+            background-color: #f0f7ff;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* ---- МОБИЛЬНАЯ АДАПТАЦИЯ ---- */
+        @media (max-width: 768px) {
+            header {
+                padding: 2.5rem 1rem 3.5rem;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            main {
+                margin-top: -1.5rem;
+            }
+
+            section {
+                padding: 1.5rem;
+                margin-bottom: 1.5rem;
+                border-radius: 10px;
+            }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            h3 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                text-align: left; /* Убираем выравнивание по ширине на телефонах для лучшей читаемости */
+                font-size: 0.95rem;
+            }
+
+            .scroll-hint {
+                display: block; /* Показываем подсказку скролла только на телефонах */
+            }
+
+            th, td {
+                padding: 12px 10px;
+                font-size: 0.9rem;
+            }
+            
+            table {
+                min-width: 500px; 
+            }
+        }
+        
+        @media (max-width: 480px) {
+            section {
+                padding: 1.2rem;
+            }
+            table {
+                min-width: 400px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Перевод англоязычных идиом</h1>
+        <p>в художественном тексте: способы достижения эквивалентности</p>
+    </header>
+
+    <main>
+        <section id="introduction">
+            <h2>Введение</h2>
+            <p>Актуальность данного научного исследования обусловлена тем, что идиомы занимают существенное место в речи каждого человека. Это одна из самых важных частей повседневной речи, а также знание идиом необходимо в иностранном языке. Идиомы насыщают выразительностью, изящностью и лаконичностью.</p>
+            <p>Сам по себе термин «идиома» был введен в использование Смитом Л. П., который являлся английским лингвистом. Данный исследователь писал о том, что в английском языке использование данного термина основывается на использовании того же самого термина, что и во французском языке. Однако сущность данного термина представляет собой использование подобного рода выражений, которые не имеют прямой логической связи с формулировкой, в которой они представлены. Таким образом, написание слов или словосочетаний в составе идиомы имеет одно значение по отдельности, в то время как в совокупности формируется совсем новое смысловое проявление.</p>
+            <p>Особенность идиомы – само по себе оборот данного формата в общем своем проявлении не является равным по смыслу отдельным единицам в пределах данного оборота. Например, в английском языке есть идиома «bring home the bacon», основной смысл которой означает обеспечение своей семьи всем необходимым. Однако, при переводе прямого смысла данной идиомы отмечается, что домой приносится бекон. По факту же исходный смысл заложенный в данной идиоме не совпадает с прямым её переводом.</p>
+            <p>В речи выделяют не только идиомы, но и их ложных друзей, с которыми можно спутать идиоматические выражения – коллокации. Если идиомы по своей сущности являются устойчивыми формами слов, которые принято использовать исключительно в таком формате, то коллокации это просто вариант использования слова. Коллокации используются в речи только потому что так принято.</p>
+        </section>
+
+        <section id="tables">
+            <h2>Практические примеры и таблицы</h2>
+            
+            <h3>Таблица 1 - Идиомы и коллокации в английском языке</h3>
+            <div class="scroll-hint">← Прокрутите таблицу вправо-влево →</div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Идиомы</th>
+                            <th>Коллокации</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Pull someone's leg</td><td>bitterly cold</td></tr>
+                        <tr><td>Speak of the devil</td><td>strong tea</td></tr>
+                        <tr><td>On the ball</td><td>high temperature</td></tr>
+                        <tr><td>To get bent out of shape</td><td>compeletely amazed</td></tr>
+                        <tr><td>Better late than never</td><td>fast food</td></tr>
+                        <tr><td>Wrap your head around something</td><td>good luck</td></tr>
+                        <tr><td>Go back to the drawing board</td><td>dead tired</td></tr>
+                        <tr><td>Get out of hand</td><td>a bar of soap</td></tr>
+                        <tr><td>Hit the sack</td><td>quick shower</td></tr>
+                        <tr><td>Pull yourself together</td><td>sense of humor</td></tr>
+                        <tr><td>Make a long story short</td><td>pay extra</td></tr>
+                        <tr><td>Break a leg</td><td>to be about</td></tr>
+                        <tr><td>Under the weather</td><td>arrive on time</td></tr>
+                        <tr><td>Get your act together</td><td>fair deal</td></tr>
+                        <tr><td>Cutting corners</td><td>to start a fight</td></tr>
+                        <tr><td>Your guess is as good as mine</td><td>to go on foot / to succeed in</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Таблица 2 - Примеры наиболее широко используемых идиом в англоязычных художественных произведениях</h3>
+            <div class="scroll-hint">← Прокрутите таблицу вправо-влево →</div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Идиома</th>
+                            <th>Использование идиомы в контексте</th>
+                            <th>Значение/перевод</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>(to be) at stake</td>
+                            <td>The future of the company was at stake during the negotiations the government</td>
+                            <td>(быть) на карте</td>
+                        </tr>
+                        <tr>
+                            <td>to put one's cards on the table</td>
+                            <td>It looked like the meeting was going to fail so we put our cards on the table to give it one last try.</td>
+                            <td>открыть все свои карты, то есть рассказать кому-либо честно о своих намерениях</td>
+                        </tr>
+                        <tr>
+                            <td>(to go) back to the drawing board</td>
+                            <td>The negotiations for the contract failed so we had to go back to the drawing board</td>
+                            <td>начать выполнять определенные действия сначала</td>
+                        </tr>
+                        <tr>
+                            <td>to call off (something)</td>
+                            <td>He had to call off all meetings because of his urgent departure.</td>
+                            <td>Приостанавливать или отменять (что-либо)</td>
+                        </tr>
+                        <tr>
+                            <td>to back out (of something)</td>
+                            <td>The new firm owner backed out of the negotiations to keep all old staff</td>
+                            <td>нарушить договоренность, не выполнить то о чем было обещано</td>
+                        </tr>
+                        <tr>
+                            <td>to get to the bottom of (something)</td>
+                            <td>It was very difficult to get to the bottom of the financial problems in the company</td>
+                            <td>выявить и определить истинную причину возникновения чего-то</td>
+                        </tr>
+                        <tr>
+                            <td>a bone of contention</td>
+                            <td>The benefit package was a bone of contention between the management and the trade union</td>
+                            <td>«корень» возникновения определенного события – «яблоко раздора»</td>
+                        </tr>
+                        <tr>
+                            <td>to play one's ace</td>
+                            <td>That order was very important for the company so I played my ace during the negotiation</td>
+                            <td>использовать все возможности, которые есть на данный момент</td>
+                        </tr>
+                        <tr>
+                            <td>to come to terms</td>
+                            <td>After long negotiating the sides came to terms on the price issue</td>
+                            <td>достичь понимания по определенному вопросу</td>
+                        </tr>
+                        <tr>
+                            <td>to make headway</td>
+                            <td>We have been bargaining hard all week and are finally making headway with the new agreement</td>
+                            <td>достичь определенного прогресса и развиваться дальше</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Таблица 3 - Существующие способы перевода идиом в художественном тексте</h3>
+            <div class="scroll-hint">← Прокрутите таблицу вправо-влево →</div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Способ перевода</th>
+                            <th>Идиома</th>
+                            <th>Анализ оригинала идиомы и её перевода</th>
+                            <th>Перевод идиомы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="3">Подбор полного эквивалента, или дословный перевод</td>
+                            <td>Homeric laughter</td>
+                            <td>Перевод идиомы по принципу дословного перевода путем подбора полного эквивалента.</td>
+                            <td>Гомерический смех</td>
+                        </tr>
+                        <tr>
+                            <td>Heel of Achilles</td>
+                            <td>Перевод идиомы по принципу дословного перевода путем подбора полного эквивалента.</td>
+                            <td>Ахиллесова пята</td>
+                        </tr>
+                        <tr>
+                            <td>People who live in glass houses should not throw stones</td>
+                            <td>Перевод текста, максимально приближенный к пословице в русском контексте. Ориентирован на использование метафоричного смысла.</td>
+                            <td>Дословный: Людям, которые живут в домах из стекла, не стоит бросать камни.<br><br>Смысловой: В своем глазу бревна не видно, а в чужом и соринка заметна.</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Подбор аналогичного фразеологизма</td>
+                            <td>To kill the goose that lays the golden eggs</td>
+                            <td>Формулировка уходит корнями в древнегреческую мифологию. Отмечается возможность подбора почти дословного эквивалента.</td>
+                            <td>Убивать курицу, которая несет золотые яйца</td>
+                        </tr>
+                        <tr>
+                            <td>A bird in the hand is worth two in the bush</td>
+                            <td>При дословном переводе наблюдается несоответствие смыслов, но общая смысловая нагрузка сохраняется (лучше синица в руках).</td>
+                            <td>Лучше синица в руке, чем журавль в небе</td>
+                        </tr>
+                        <tr>
+                            <td>Wind in the head</td>
+                            <td>Сходность идиоматического выражения имеет сходное значение, однако образ представления смысла является отличным.</td>
+                            <td>Ветер в голове</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Контекстуальная замена</td>
+                            <td>Once in a blue moon</td>
+                            <td>Исходный вариант означает: совершение события, которое происходит крайне редко. Перевод используется в неформальном контексте.</td>
+                            <td>Когда рак на горе свиснет</td>
+                        </tr>
+                        <tr>
+                            <td>No pain, no gain</td>
+                            <td>Перевод основан на подборе близкого аналога. Смыслы полностью совпадают.</td>
+                            <td>Без труда не вытащишь рыбку из пруда</td>
+                        </tr>
+                        <tr>
+                            <td>You can’t eat your cake and have it</td>
+                            <td>Оптимальной подборки прямого значения обнаружить не удалось. Был подобран примерно подходящий по смыслу эквивалент.</td>
+                            <td>Невозможно усидеть одновременно на двух стульях</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="3">Описательный перевод</td>
+                            <td>A smack in the eye</td>
+                            <td>Выявлена полная замена образа и контекстуальный перевод. Перевод произведен без смысловых потерь.</td>
+                            <td>Удар по самолюбию</td>
+                        </tr>
+                        <tr>
+                            <td>That was putting all his eggs in one basket</td>
+                            <td>Использован вариант описания идиомы на основе замены её смысла описанием.</td>
+                            <td>Это слишком рискованно</td>
+                        </tr>
+                        <tr>
+                            <td>A skeleton in the cupboard</td>
+                            <td>Наиболее оптимальным считается использование термина «семейная тайна», который максимально точно описывает сущность идиомы.</td>
+                            <td>Семейная тайна</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Таблица 4 - Способы достижения оптимальной эквивалентности</h3>
+            <div class="scroll-hint">← Прокрутите таблицу вправо-влево →</div>
+            <div class="table-responsive">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Способ перевода</th>
+                            <th>Идиома</th>
+                            <th>Перевод идиомы</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="6">Дословный перевод</td>
+                            <td>to play with fire</td>
+                            <td>играть с огнем</td>
+                        </tr>
+                        <tr>
+                            <td>busy as a bee</td>
+                            <td>трудолюбивый, как пчела</td>
+                        </tr>
+                        <tr>
+                            <td>marriages are made in heaven</td>
+                            <td>браки совершаются на небесах</td>
+                        </tr>
+                        <tr>
+                            <td>everything is under control</td>
+                            <td>всё под контролем</td>
+                        </tr>
+                        <tr>
+                            <td>to burn bridges</td>
+                            <td>сжигать мосты</td>
+                        </tr>
+                        <tr>
+                            <td>there is no smoke without fire</td>
+                            <td>нет дыма без огня</td>
+                        </tr>
+                        <tr>
+                            <td rowspan="4">Описательный перевод</td>
+                            <td>easy-peasy</td>
+                            <td>раз плюнуть</td>
+                        </tr>
+                        <tr>
+                            <td>sunday driver</td>
+                            <td>слишком медленный (водитель)</td>
+                        </tr>
+                        <tr>
+                            <td>cook (someone’s) goose</td>
+                            <td>напакостить</td>
+                        </tr>
+                        <tr>
+                            <td>cut the mustard</td>
+                            <td>добиться желаемого</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="conclusion">
+            <h2>Заключение</h2>
+            <p>При формировании нового текста в ходе перевода, важно понимать, что прямой перенос его смысла практически невозможен, что связано с тем, что каждый из жанров предъявляет определенные требования. При переводе текстов, в частности художественных, очень важно соблюдать эквивалентность, которая обозначает степень близкой передачи переводимого текста к тексту-оригиналу. Именно с помощью эквивалентности происходит сопоставление одного варианта текста другому.</p>
+            <p>Определено, что идиома выступает в роли своеобразного оборота речи, который встречается только в пределах именно этого языка. Они могут встречаться в других языках исключительно в качестве переводного материала. Знание идиом позволяет упростить процесс прочтения на языке-оригинале, а также дает возможность пополнения своего словарного запаса. В результате этого человек становится способным не только понимать английскую речь, но и интуитивно использовать неизвестные слова.</p>
+            <p>Проведенное исследование позволило установить, что наиболее оптимальным считается способ калькирования (дословный перевод или подбор полного эквивалента). Данный способ позволяет полностью передать весь смысл, заключенный в идиоме посредством прямого перевода. Описательный способ перевода требует максимально точной интерпретации и воспроизведения глубинного смысла англоязычной идиомы, что требует от переводчика обширного багажа знаний. Таким образом, в качестве самого оптимального способа перевода идиом в художественном тексте определен дословный перевод.</p>
+        </section>
+    </main>
+
+</body>
+</html>
